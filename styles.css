@@ -98,9 +98,18 @@ h1 {
   padding-block-end: var(--spacing-300);
 } 
 
+.faq__item--hidden .faq__answer {
+  display: none;
+}
+
 .faq__question {
   font-size: var(--fs-question);
   font-weight: var(--fw-question);
+}
+
+.faq__question:hover {
+  color: var(--pink-500);
+  cursor: pointer;
 }
 
 .faq__expand {
@@ -112,8 +121,4 @@ h1 {
   font-size: var(--fs-answer);
   font-weight: var(--fw-answer);
   color: var(--purple-400);
-}
-
-.faq__answer--hidden {
-  display: none;
 }
