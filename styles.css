@@ -8,4 +8,14 @@
   --pink-500: hsl(281deg, 83%, 54%);
   --purple-400: hsl(292deg, 16%, 49%);
   --purple-900: hsl(292deg, 42%, 14%);
+
+  --fs-heading: clamp(2rem, 1.4718rem + 2.2535vw, 3.5rem);
+  --fs-question: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
+  --fs-answer: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
+
+  --fw-heading: 700;
+  --fw-question: 600;
+  --fw-answer: 400;
+  
+  --lh-answer: 1.5;
 }
