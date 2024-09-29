@@ -117,6 +117,10 @@ h1 {
   margin-inline-start: var(--spacing-400);
 }
 
+.faq__item:not(.faq__item--hidden) .faq__expand--plus, .faq__item--hidden .faq__expand--minus {
+  display: none;
+}
+
 .faq__answer {
   font-size: var(--fs-answer);
   font-weight: var(--fw-answer);
