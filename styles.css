@@ -19,3 +19,20 @@
   
   --lh-answer: 1.5;
 }
+
+html {
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--pink-100);
+  background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+  }
+}
